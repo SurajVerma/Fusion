@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./styles.css";
-import { func } from "prop-types";
 
 // const element = <div className="container">Hello World!</div>;
 // React.createElement(
