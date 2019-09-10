@@ -50,20 +50,15 @@ import "./styles.css";
 // ReactDOM.render(element, root);
 
 //Using class component with React
-class Counter extends React.Component {
-  constructor(...args) {
-    super(...args);
-    this.state = { count: 0 };
-  }
-  handleClick() {
-    this.setState(({ count }) => ({
-      count: count + 1
-    }));
-  }
-  render() {
-    return (
-      <button onClick={this.handleClick.bind(this)}>{this.state.count}</button>
-    );
-  }
-}
-ReactDOM.render(<Counter />, document.getElementById("root"));
+// class Counter extends React.Component {
+//   state = { count: 0 };
+//   handleClick = () => {
+//     this.setState(({ count }) => ({
+//       count: count + 1
+//     }));
+//   };
+//   render() {
+//     return <button onClick={this.handleClick}>{this.state.count}</button>;
+//   }
+// }
+// ReactDOM.render(<Counter />, document.getElementById("root"));
